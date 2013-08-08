@@ -1,0 +1,7 @@
+---
+
+- name: Update packages 
+  apt: update_cache=$global_update_apt_cache 
+  tags: 
+    - apt
+    - update
